@@ -36,14 +36,10 @@ class PostVideoButton extends StatelessWidget {
         ),
         Container(
           height: 30,
-          padding: const EdgeInsets.symmetric(
-            horizontal: Sizes.size12,
-          ),
+          padding: const EdgeInsets.symmetric(horizontal: Sizes.size12),
           decoration: BoxDecoration(
             color: Colors.white,
-            borderRadius: BorderRadius.circular(
-              Sizes.size6,
-            ),
+            borderRadius: BorderRadius.circular(Sizes.size6),
           ),
           child: const Center(
             child: FaIcon(
